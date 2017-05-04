@@ -61,9 +61,13 @@ body {
 }
 
 /* Top Navigation */
-
+.puc{
+    width: 130px;
+    margin: 3px 0px 6px 3px;
+}
 .top-nav {
     padding: 0 15px;
+    margin: 10px 0px 0px 0px;
 }
 
 .top-nav>li {
@@ -101,6 +105,12 @@ body {
 
 .top-nav>.open>.dropdown-menu>li>a {
     white-space: normal;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #464646;
 }
 
 ul.message-dropdown {
