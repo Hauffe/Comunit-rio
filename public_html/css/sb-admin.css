@@ -52,7 +52,7 @@ body {
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 225px;
+        padding-left: 160px;
     }
 
     #page-wrapper {
@@ -145,7 +145,7 @@ ul.alert-dropdown {
         position: fixed;
         top: 70px;
         left: 225px;
-        width: 225px;
+        width: 160px;
         margin-left: -225px;
         border: none;
         border-radius: 0;
